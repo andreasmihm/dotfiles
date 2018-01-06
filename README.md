@@ -115,9 +115,9 @@ In addition to the aforementioned [dotfiles][dotfiles] script, there are a few o
 * Look through the [bin](bin) subdirectory for a few more.
 
 ## Inspiration
-<https://github.com/cowboy/dotfiles>
+<https://github.com/guw/dotfiles>
 
 ## License
-Copyright (c) 2015 Gunnar Wagenknecht and others.
+Copyright (c) 2018 Andreas Mihm and others.
 Licensed under the MIT license.
-Based on work by "Cowboy" Ben Alman (http://benalman.com/).
+Based on work by Gunnar Wagenknecht
