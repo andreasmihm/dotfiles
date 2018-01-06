@@ -1,6 +1,6 @@
 # Dotfiles
 
-Gunnar's OS X & Linux (Ubuntu) dotfiles.
+Andreas's OS X & Linux (Ubuntu) dotfiles.
 
 ## About this project
 
@@ -98,7 +98,7 @@ There's a lot of stuff that requires admin access via `sudo`, so be warned that 
 ### Actual installation (for me)
 
 ```sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/guw/dotfiles/master/bin/dotfiles)" && source ~/.bashrc
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/andreasmihm/dotfiles/master/bin/dotfiles)" && source ~/.bashrc
 ```
 
 ## Aliases and Functions
