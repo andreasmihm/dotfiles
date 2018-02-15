@@ -22,37 +22,38 @@ brew cask info this-is-somewhat-annoying 2>/dev/null
 # Homebrew casks
 casks=(
   # Applications
-  bettertouchtool
-  burn
-  chronosync
-  cloudytabs
+  #bettertouchtool
+  #burn
+  #chronosync
+  #cloudytabs
   commander-one
-  #cyberduck
+  cyberduck
   #dockertoolbox  ## -> Docker.app Mac beta
   #google-chrome ## -> need to install manuall, otherwise 1 password ext fails
-  google-drive
+  #google-drive
   iterm2
+  shuttle
   java
-  yujitach-menumeters
-  omnidisksweeper
-  sequel-pro
+  #yujitach-menumeters
+  #omnidisksweeper
+  #sequel-pro
   skype
   sourcetree
   sublime-text3
-  vagrant
-  virtualbox
-  virtualbox-extension-pack
+  #vagrant
+  #virtualbox
+  #virtualbox-extension-pack
   # Quick Look plugins
-  betterzipql
-  qlcolorcode
-  qlmarkdown
-  qlprettypatch
-  qlstephen
-  quicklook-csv
-  quicklook-json
-  quicknfo
-  suspicious-package
-  webpquicklook
+  #betterzipql
+  #qlcolorcode
+  #qlmarkdown
+  #qlprettypatch
+  #qlstephen
+  #quicklook-csv
+  #quicklook-json
+  #quicknfo
+  #suspicious-package
+  #webpquicklook
 )
 
 # Install Homebrew casks.

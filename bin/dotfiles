@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 [[ "$1" == "source" ]] || \
 
-echo 'Dotfiles - Gunnar Wagenknecht - http://about.me/guw'
+echo 'Dotfiles - Andreas Mihm'
 
 if [[ "$1" == "-h" || "$1" == "--help" ]]; then cat <<HELP
 
 Usage: $(basename "$0")
 
 See the README for documentation.
-https://github.com/guw/dotfiles
+https://github.com/andreasmihm/dotfiles
 
-Copyright (c) 2015 Gunnar Wagenknecht and others
+Copyright (c) 2015 Andreas Mihm, Gunnar Wagenknecht and others
 Licensed under the MIT license.
 Based on work by "Cowboy" Ben Alman (http://benalman.com/).
 HELP
@@ -300,7 +300,7 @@ if [[ ! -d $DOTFILES ]]; then
   new_dotfiles_install=1
   prompt_delay=15
   e_header "Downloading dotfiles"
-  git clone --recursive git://github.com/${github_user:-guw}/dotfiles.git $DOTFILES
+  git clone --recursive git://github.com/${github_user:-andreasmihm}/dotfiles.git $DOTFILES
   cd $DOTFILES
 elif [[ "$1" != "restart" ]]; then
   # Make sure we have the latest files.

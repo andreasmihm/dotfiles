@@ -14,29 +14,29 @@ brew_tap_kegs
 recipes=(
   ansible
   bash
-  bash-completion2
-  brew-gem
-  cowsay
+  #bash-completion2
+  #brew-gem
+  #cowsay
   git
   git-extras
   htop-osx
-  id3tool
-  lesspipe
-  liquidprompt
-  locateme
-  man2html
-  mackup
+  #id3tool
+  #lesspipe
+  #liquidprompt
+  #locateme
+  #man2html
+  #mackup
   maven
-  mosh
+  #mosh
   nmap
-  python
-  ssh-copy-id
-  terminal-notifier
-  timelimit
-  tree
-  docker-completion
-  maven-completion
-  vagrant-completion
+  #python
+  #ssh-copy-id
+  #terminal-notifier
+  #timelimit
+  #tree
+  #docker-completion
+  #maven-completion
+  #vagrant-completion
 )
 
 brew_install_recipes

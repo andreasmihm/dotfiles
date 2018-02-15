@@ -17,6 +17,8 @@ function src() {
   fi
 }
 
+alias ll='ls -lG'
+
 # Run dotfiles script, then source.
 function dotfiles() {
   $DOTFILES/bin/dotfiles "$@" && src
