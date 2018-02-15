@@ -2,6 +2,8 @@
 
 Andreas's OS X & Linux (Ubuntu) dotfiles.
 
+
+
 ## About this project
 
 As with all the other similar repositories found on GitHub, this is my repository with common settings shared betwen Macs and Linux machines I use (currently only Ubuntu). It contains common settings, shell environments and utilities that easy my life on terminals.
